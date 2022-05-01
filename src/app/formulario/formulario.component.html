@@ -1,0 +1,33 @@
+<form [formGroup]="formulario" (ngSubmit)="onSubmit()">
+  <!-- definir el [formGroup] que controla el formulario y tambien el evento que se dara cuando se capture onSubmit -->
+
+  <!-- colocamos la clase que contenera label y text para ingreso de datos en la tabla el cual se agrega la directiva formcontrolname donde se sabra con el cual esta enlazados-->
+  <div class=" form-group">
+    <label>Nombre</label>
+    <input type="text" class="form-control" formControlName="nombre">
+  </div>
+  <!-- se crea uno para cada Elemento-->
+  <div class="form-group">
+    <label>Apellido </label>
+    <input type="text" class="form-control" formControlName="apellidos">
+  </div>
+  <!-- se crea uno para cada Elemento-->
+  <div class="form-group">
+    <label>Direccion</label>
+    <input type="text" class="form-control" formControlName="direccion">
+  </div>
+  <!-- se crea uno para cada Elemento-->
+  <div class="form-group">
+    <label>Telefono </label>
+    <input type="text" class="form-control" formControlName="telefono">
+  </div>
+  <!-- se crea uno para cada Elemento-->
+  <div class="form-group">
+    <label>Estado </label>
+    <input type="text" class="form-control" formControlName="estado">
+  </div>
+  <!-- el submit para ejecutar el formulario boton-->
+  <div class="submit">
+    <input type="submit" value=" Enviar">
+  </div>
+</form>

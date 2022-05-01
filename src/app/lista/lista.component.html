@@ -1,0 +1,9 @@
+<div class="personas">
+  <div class="persona" *ngFor="let persona of arrPersonas">
+    <!-- aca recorremos el array con ngfor-->
+    <h3> ✓{{ persona.nombre }} {{persona.apellidos}}</h3><!-- aca concatenamos nuestro nombre y apellido-->
+    <p>✓{{ persona.direccion}}</p><!-- mostramos direccion-->
+    <p>✓{{persona.telefono}}</p><!-- mostramos telefono-->
+    <p>✓{{ persona.estado }}</p><!-- mostramos estado-->
+  </div>
+</div>

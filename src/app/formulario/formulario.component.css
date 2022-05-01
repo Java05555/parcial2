@@ -1,0 +1,24 @@
+.form-group {
+  margin-left: 40%;
+  margin-top: 0.1rem;
+  border: 1px solid grey;
+  text-transform: uppercase;
+  tab-size: 100px;
+  border-bottom-right-radius: 1rem;
+  text-align: center;
+  text-align: center;
+  width: min-content;
+  border-collapse: collapse;
+  padding: 10px;
+  text-decoration: solid;
+  padding: 0.5rem;
+  background-color: rgba(76, 81, 81, 0.288);
+  border-radius: 0.5rem;
+}
+.submit {
+  margin-top: 0rem;
+  margin-left: 44%;
+  padding: 1rem;
+  /* IMPORTANTE */
+  text-align: start;
+}

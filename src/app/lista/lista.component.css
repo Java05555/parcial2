@@ -1,0 +1,8 @@
+.persona {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  padding: 10px;
+  background-color: rgba(76, 81, 81, 0.288);
+  text-decoration: solid;
+  border-radius: 2rem;
+}
